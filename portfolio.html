@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="index.css"/>
     <meta charset="UTF-8">
     <title>Nombre en el buscador</title>
-    link rel="stylesheet" href"index"
 </head>
 
 <body>
