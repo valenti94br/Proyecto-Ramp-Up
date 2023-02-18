@@ -1,8 +1,53 @@
-*{margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'roboto', sans-serif;
-    }
+
+    
 
     /* Lo primero es centrar todo al centro, que quede simétrico o me dará un jamacuco visual */
+
+/* Index */
+
+ .portada {
+    background-color: black;
+    color: white
+  }
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+.button {font-size: 25px;
+    background-color: green;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+#menu {
+    display: flex;
+justify-content: center;
+}
+
+/* biografia */
+
+.main-div {padding: 50px 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px #C0C0C0;
+}
+
+
+/* portfolio */
+
+
+
+
+/* contacto */
+
+
+
+
+
