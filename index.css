@@ -1,4 +1,61 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fffffff9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
+  .imagencentral{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu a {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu a:hover {
+    background-color: #eee;
+  }
+  
+  .menu a.active {
+    font-weight: bold;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .phone p {
+    margin: 0;
+  }
     
 
     /* Lo primero es centrar todo al centro, que quede simétrico o me dará un jamacuco visual */
@@ -10,6 +67,11 @@
     color: white
   }
 
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
 .logo {
 
     display: flex;
@@ -18,9 +80,9 @@
 
 
 .button {font-size: 25px;
-    background-color: green;
+    background-color: #2688ff;
     color: white;
-    border: 2px solid #4CAF50;
+    border: 2px solid #2688ff;
     border-radius: 5px;
 }
 
@@ -37,6 +99,22 @@ justify-content: center;
     margin-top:5px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 2px 2px #C0C0C0;
+    background-color: rgb(68, 177, 255);
+}
+
+.image-text-container {
+    display: flex; /* establece un contenedor flexible */
+    align-items: center; /* alinea verticalmente el contenido */
+  }
+  
+  .image-text-container img {
+    max-width: 100%; /* establece el ancho máximo de la imagen */
+    margin-right: 1em; /* agrega un margen a la derecha de la imagen */
+  }
+
+.ficha {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -47,7 +125,15 @@ justify-content: center;
 
 /* contacto */
 
-
-
-
+.fondo-contacto {padding: 50px 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px #C0C0C0;
+    background-image: url(Assets/Images/Dados-rol.png);color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
 
